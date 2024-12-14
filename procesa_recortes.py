@@ -320,7 +320,7 @@ class RecortesProcessor:
                 output_path,
                 crop,
                 [
-                    cv2.IMWRITE_TIFF_COMPRESSION, 1,  # Sin compresión
+                    cv2.IMWRITE_TIFF_COMPRESSION, 5,  # Sin compresión
                     cv2.IMWRITE_TIFF_RESUNIT, 2,     # Pulgadas
                     cv2.IMWRITE_TIFF_XDPI, int(dpi[0]),   # DPI X
                     cv2.IMWRITE_TIFF_YDPI, int(dpi[1])    # DPI Y
