@@ -1,0 +1,4 @@
+numpy==2.2.0
+opencv-python==4.10.0.84
+pillow==11.0.0
+pyodbc==5.2.0

@@ -418,7 +418,7 @@ class RecortesProcessor:
 def main():
     try:
         # Configuración
-        output_directory = r"C:\RECORTES"
+        output_directory = r"D:\RECORTES_FINALES"
         
         # Verificar y crear directorio de salida
         os.makedirs(output_directory, exist_ok=True)
